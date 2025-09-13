@@ -1,0 +1,71 @@
+*::after,*::before,*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #dcdde1;
+    justify-content: center;
+    align-content: center;
+    box-sizing: border-box;
+}
+.main_container{
+    background-color: #273c75;
+    margin: 20px auto;
+    padding:  1% 2%;
+    width: 98%;
+    height: 100%;
+    /* display: flex; */
+    border-radius: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+}
+.main_container h1{
+    font-family:"Lilita One", sans-serif ;
+    font-weight: 500;
+    color: #f5f6fa;
+    font-size: 50px;
+    /* background-color: antiquewhite; */
+    display: block;
+    text-align: center;
+    margin: auto;
+}
+.photo_container{
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 1%;
+    background-color:#f5f6fa;
+    border-radius: 10px;
+    display: flex;
+    gap: 1%;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.img_card{
+    box-sizing: border-box;
+    width: 320px;
+    height: auto;
+    background-color:#273c75;
+    padding: 5px;
+    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 5px;
+    box-shadow: 0 0 2px black;
+}
+.img_card img{
+    max-width: 100%;
+    height: 90%;
+    margin: auto;
+    border-radius: 5px;
+}
+.img_card p{
+    font-size: 16px;
+    font-weight: bold;
+    color: #dcdde1;
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+}
